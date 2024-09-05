@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha mini Biografia</title>
+</head>
+<body>
+    <!--Introdução sobre mim-->
+     <h1>Um pouco sobre mim...</h1>
+     <p>Me chamo Camila, tenho 18 anos, sou estudando da faculdade Unifavip Wyden, do curso de Ciência da Computação. E meu plano futuro, é me torna uma desenvolvedora de software, principalmente de jogos ou de algum projeto que ajude outras pessoas. A finalidade desse site é interagir com outros alunos Wyden.</p>
+    <!--Início do Formulário--> 
+     <p><strong>Vamos nos conhecer melhor?</strong></p>
+     <form method = "post" action = "mailto:202408162961@alunos.unifavip.edu.br">
+     <p><strong>Qual a data em que você entrou na Unifavip?</strong></p>
+    <!--Data-->
+     <p>
+        <label>Data: <input type = "datetime-local" name = "data"></label>
+     </p>
+    <!--Select-->
+     <p>
+        <label><strong>Qual nota você confere à Infraestrutura?</strong>
+               <select name = "rating">
+                <option selected = "selected">Incrível</option>
+                   <option>10</option>
+                   <option>9</option>
+                   <option>8</option>
+                   <option>7</option>
+                   <option>6</option>
+                   <option>5</option>
+                   <option>4</option>
+                   <option>3</option>
+                   <option>2</option>
+                   <option>1</option>
+                   <option>Péssimo</option>
+
+               </select>
+        </label>
+    <!--Checkbox--> 
+     </p>
+     <p><strong>Como você prefere?</strong></p>
+     <p>
+        <label>Site <input name = "thingsliked" type = "checkbox" value = "Site"></label>
+        <label>Chamada n aula <input name = "thingsliked" type = "checkbox" value = "Chamada n aula"></label>
+        <label>Não sei ao certo <input name = "thingsliked" type = "checkbox" value = "Não sei ao certo"></label>
+     </p>
+    <!--Text Area-->
+     <p>
+        <label><strong>Área de comentários:</strong>
+         <br>
+        <textarea name="comments" rows="8" cols="45">Deixe seu comentário</textarea>
+        </label>
+     </p>
+    <!--Input--> 
+     <p><Strong>Deixe alguns dados pré-contato para conversarmos</Strong></p>
+        <p><label>Nome: <input name = "name" type = "text" size = "28"></label></p>
+        <p><label>Instagram: <input name = "user" type = "password" size = "28"></label></p>
+        <p><label>E-mail: <input name = "email" type = "email" size = "28"></label></p>
+         <br>
+        <input type = "submit" value = "Enviar"/>
+        <input type="reset" value = "Limpar">
+    </form>
+</body>
+</html>
